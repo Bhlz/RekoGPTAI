@@ -1,12 +1,25 @@
 {
   "name": "rekogpt",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "RekoGPT - Your AI Assistant powered by OpenAI and Vercel",
+  "main": "api/chat.js",
   "scripts": {
+    "start": "node api/chat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "AI",
+    "Assistant",
+    "OpenAI",
+    "Vercel",
+    "Chatbot"
+  ],
+  "author": "Your Name Here",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.47.1"
+  }
 }
