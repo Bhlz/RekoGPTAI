@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Vercel specific files
+.vercel/
+
+# Build outputs
+.next/
+dist/
+build/
